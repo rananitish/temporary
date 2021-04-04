@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import React from 'react';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div className="loginpage">
+      <div className="dine-overlay">
+              <div className="automate-takeaway">
+              <b>Automate your takeaway</b> </div>
+               <p>Pos features help your business to be fully automated with <br/> DineOrder online ordering system.</p>
+               <a href="#" class="login-box" tabindex="0">
+							View More
+						</a>
+       </div>
+       <div className="log-section">
+         
+       </div>
+   </div>
   );
 }
 
